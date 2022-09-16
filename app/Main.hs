@@ -1,6 +1,9 @@
 module Main (main) where
 
-import Lib
+import Html ( docHtml )
+import Style ( docStyle )
+import qualified Data.Text.Lazy.IO as T
 
 main :: IO ()
-main = someFunc
+main = do
+  T.putStrLn docHtml
