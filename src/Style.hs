@@ -61,6 +61,6 @@ diffButtonStyle = mempty
 diffResultStyle :: Css
 diffResultStyle = do
   ".diff-canvas" ? do
-    important $ width (pct 100)
+    important $ maxWidth (pct 100)
     important $ height auto
 

@@ -1,0 +1,41 @@
+
+.diff-image-view
+{
+  display               : grid;
+  grid-template-columns : 1fr 1fr;
+  grid-gap              : 16px;
+}
+
+.diff-image-view .diff-image-item
+{
+  position    : relative;
+  padding-top : 75%;
+}
+
+.diff-image-view .diff-image-item .diff-image-item-real
+{
+  position        : absolute;
+  top             : 0;
+  right           : 0;
+  bottom          : 0;
+  left            : 0;
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
+}
+
+.diff-image-view .diff-image-item .diff-image-item-real .diff-image
+{
+  display    : block;
+  max-width  : 100%;
+  max-height : 100%;
+}
+
+.diff-canvas
+{
+  width  : 100% !important;
+  height : auto !important;
+}
+
+
+/* Generated with Clay, http://fvisser.nl/clay */

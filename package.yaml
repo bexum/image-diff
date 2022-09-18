@@ -24,6 +24,8 @@ dependencies:
 - blaze-html
 - text
 - clay
+- blaze-markup
+- heterocephalus
 
 ghc-options:
 - -Wall

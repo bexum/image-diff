@@ -25,7 +25,11 @@ source-repository head
 
 library
   exposed-modules:
+      Action
+      Common
+      Html
       Lib
+      Style
   other-modules:
       Paths_image_diff
   hs-source-dirs:
@@ -33,6 +37,11 @@ library
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
   build-depends:
       base >=4.7 && <5
+    , blaze-html
+    , blaze-markup
+    , clay
+    , heterocephalus
+    , text
   default-language: Haskell2010
 
 executable image-diff-exe
@@ -44,7 +53,12 @@ executable image-diff-exe
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
+    , blaze-html
+    , blaze-markup
+    , clay
+    , heterocephalus
     , image-diff
+    , text
   default-language: Haskell2010
 
 test-suite image-diff-test
@@ -57,5 +71,10 @@ test-suite image-diff-test
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
+    , blaze-html
+    , blaze-markup
+    , clay
+    , heterocephalus
     , image-diff
+    , text
   default-language: Haskell2010
