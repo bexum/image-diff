@@ -56,7 +56,7 @@ websiteImage imageFileElement imageElement = div $
     div ! class_ "diff-image-item" $ div ! class_ "diff-image-item-real" $ img ! class_ "diff-image" ! alt "No Image" ! id (lazyTextValue imageElement)
 
 websiteDiffButton :: Html
-websiteDiffButton = div $ button "diff image"
+websiteDiffButton = div $ button ! onclick "imageDiff()" $ "diff image"
 
 websiteDiffResult :: Html
 websiteDiffResult = div $ do

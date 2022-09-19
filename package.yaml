@@ -26,6 +26,8 @@ dependencies:
 - clay
 - blaze-markup
 - heterocephalus
+- warp
+- wai-app-static
 
 ghc-options:
 - -Wall

@@ -37,7 +37,7 @@ function imageDiff() {
   let mat2_list = new cv.MatVector()
   cv.findContours(mat_result, mat2_list, new cv.Mat(), cv.RETR_EXTERNAL, cv.CHAIN_APPROX_SIMPLE)  
   let mat_result2 = mat2.clone()
-  cv.drawContours(mat_result2, mat2_list, -1, new cv.Scalar(0, 0, 255, 255))
+  cv.drawContours(mat_result2, mat2_list, -1, new cv.Scalar(255, 0, 0, 255))
   cv.imshow('image-canvas', mat_result2) 
   mat1.delete()  
   mat2.delete() 
@@ -47,3 +47,4 @@ function imageDiff() {
   mat2_list.delete()
   mat_result2.delete()
 }
+
