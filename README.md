@@ -27,6 +27,6 @@ Here is one Screenshot of using this tools.
 <img width="545" alt="image-diff" src="https://user-images.githubusercontent.com/28294081/190964828-98e71fa5-7948-412e-a3fe-815b965ba9b6.png">
 
 ## Contact
-Welcome to using [Haskell-Language-China](https://github.com/Haskell-Language-China)'s codes and glad to see you. 
+Welcome to using [bexum](https://github.com/bexum)'s codes and glad to see you. 
 
 For joining the organization, Contact me at [murakami's github](https://github.com/MurakamiKennzo) or [murakami's website](https://murakamikennzo.github.io). Cheers!🤗🍻
